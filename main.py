@@ -145,7 +145,7 @@ def bosstext():
     # global boss_level
     screen.fill((0, 0, 0))
     intro_text_type = pygame.font.Font("freesansbold.ttf", 32)
-    intro_text = intro_text_type.render("BOSS BHAGWA TAKKAL", True, (255, 255, 255))
+    intro_text = intro_text_type.render("BOSS TAKKAL", True, (255, 255, 255))
     screen.blit(intro_text, (200, 250))
     pygame.display.update()
     time.sleep(2)
